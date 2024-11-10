@@ -118,7 +118,7 @@ h2 {
     transition: transform 0.3s ease-in-out;
 }
 
-.skill:hover, .hobby:hover {
+.skill:hover, .hobby:hover , .project:hover {
     transform: scale(1.05);
 }
 
