@@ -8,21 +8,6 @@ document.querySelectorAll('nav a').forEach(anchor => {
     });
 });
 
-// Handle profile picture upload
-const fileInput = document.getElementById('file-input');
-const profilePic = document.querySelector('.profile-pic img');
-
-fileInput.addEventListener('change', () => {
-    const file = fileInput.files[0];
-    if (file) {
-        const reader = new FileReader();
-        reader.onload = () => {
-            profilePic.src = reader.result;
-        };
-        reader.readAsDataURL(file);
-    }
-});
-
 // Add visibility animation to sections
 document.addEventListener('scroll', () => {
     document.querySelectorAll('section').forEach(section => {
