@@ -44,12 +44,8 @@ nav ul li a.active, nav ul li a:hover {
 /* Profile Section */
 .profile-pic {
     display: inline-block;
-    position: relative;
-    margin-bottom: 1rem;
-    border-radius: 12px;
-    background: #ffffff;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
-    padding: 1rem;
+    margin: 1rem auto;
+    text-align: center;
 }
 
 .profile-pic img {
